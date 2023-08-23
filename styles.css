@@ -22,7 +22,7 @@ body {
 }
 
 header {
-  background: url("assets/background.jpg") no-repeat top;
+  background: url("assets/images/background.jpg") no-repeat top;
   background-size: cover;
   min-height: 100vh;
   position: relative;
@@ -81,7 +81,7 @@ a,
 }
 
 #history {
-  background: url("assets/section 1.jpg") no-repeat top;
+  background: url("assets/images/section 1.jpg") no-repeat top;
   background-size: cover;
   min-height: 140vh;
   position: relative;
@@ -191,27 +191,27 @@ div.item {
 
 div.item:nth-of-type(1) {
   --offset: 1;
-  background: url("assets/carousel-image-1.jpg");
+  background: url("assets/images/carousel-image-1.jpg");
   background-size: cover;
 }
 div.item:nth-of-type(2) {
   --offset: 2;
-  background: url("assets/carousel-image-2.jpg");
+  background: url("assets/images/carousel-image-2.jpg");
   background-size: cover;
 }
 div.item:nth-of-type(3) {
   --offset: 3;
-  background: url("assets/carousel-image-1.jpg");
+  background: url("assets/images/carousel-image-1.jpg");
   background-size: cover;
 }
 div.item:nth-of-type(4) {
   --offset: 4;
-  background: url("assets/carousel-image-2.jpg");
+  background: url("assets/images/carousel-image-2.jpg");
   background-size: cover;
 }
 div.item:nth-of-type(5) {
   --offset: 5;
-  background: url("assets/carousel-image-1.jpg");
+  background: url("assets/images/carousel-image-1.jpg");
   background-size: cover;
 }
 
@@ -327,12 +327,12 @@ label.nav span {
 }
 .page:nth-of-type(1),
 article:nth-of-type(1) {
-  background: url("assets/tab-1.jpg") no-repeat center;
+  background: url("assets/images/tab-1.jpg") no-repeat center;
   background-size: cover;
 }
 .page:nth-of-type(2),
 article:nth-of-type(2) {
-  background: url("assets/tab-2.jpg") no-repeat center;
+  background: url("assets/images/tab-2.jpg") no-repeat center;
   background-size: cover;
 }
 
