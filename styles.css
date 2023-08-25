@@ -24,7 +24,7 @@ body {
 header {
   background: url("assets/images/background.jpg") no-repeat top;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 80vh;
   position: relative;
   padding-top: 80px;
 }
@@ -458,6 +458,9 @@ footer {
 }
 
 @media screen and (min-width: 700px) {
+  header {
+    min-height: 100vh;
+  }
   .history-text,
   .climb-text {
     background-color: transparent;
